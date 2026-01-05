@@ -1,7 +1,7 @@
 
 .Myfooter {
-    color: white;
-    background-color: #033b6c;
+    color: var(--font-color);
+     background-color: var(--primary-color);
     text-align: center;
     padding: 15px 0;
     

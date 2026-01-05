@@ -1,12 +1,16 @@
 
 
+.Site-navigation {
+
+  width: 100%;
+ 
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: var(--nav-color);
 }
 
 ul li {
@@ -15,13 +19,14 @@ ul li {
 
 ul li a {
   display: block;
-  color: white;
+  color: var(--font-color);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: var(--nav-hover-color);
 }
 
+}
